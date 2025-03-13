@@ -17,7 +17,7 @@
         _l = "querySelectorAll", _m = "style", _n = "head", _o = "appendChild", _p = "createElement", 
         _q = "animation", _r = "rainbow", _s = "infinite", _t = "linear", _u = "color", 
         _v = "red", _w = "orange", _x = "yellow", _y = "green", _z = "blue", 
-        _A = "indigo", _B = "violet", _C = "5s", _E = 1000; // adj
+        _A = "indigo", _B = "violet", _C = "5s", _E = 5000;
 
     function _F() {
         document[_l]("." + _d)[_k](_G => {
@@ -39,7 +39,10 @@
         });
     }
 
-    setInterval(_F, _E);
+    setTimeout(() => {
+        _F();
+        setInterval(_F, _E);
+    }, _E);
 
     let _I = document[_p](_m);
     _I.innerHTML = `
