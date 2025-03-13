@@ -1,17 +1,6 @@
-// ==UserScript==
-// @name         2025 Machine
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Tags
-// @author       KyaIsW
-// @match        https://evades.io
-// @match        https://evades.online
-// @match        *://192.99.150.59
-// @grant        none
-// ==/UserScript==
-
 (function() {
     'use strict';
+
     let users = [
         { name: "kyaisw", tag: "[Contributor] " },
         { name: "Zane", tag: "[Leader] " },
@@ -22,12 +11,14 @@
         { name: "Bunny", tag: "[Jr. Commander] " },
         { name: "Lunari", tag: "[Commander] " }
     ];
+
     let _c = "rainbow-text", _d = "chat-message-sender", _e = "leaderboard-name", _f = "innerText", 
         _g = "classList", _h = "trim", _i = "includes", _j = "startsWith", _k = "forEach", 
         _l = "querySelectorAll", _m = "style", _n = "head", _o = "appendChild", _p = "createElement", 
         _q = "animation", _r = "rainbow", _s = "infinite", _t = "linear", _u = "color", 
         _v = "red", _w = "orange", _x = "yellow", _y = "green", _z = "blue", 
-        _A = "indigo", _B = "violet", _C = "5s", _E = 1000; 
+        _A = "indigo", _B = "violet", _C = "5s", _E = 1000; // Adjusted interval for performance
+
     function _F() {
         document[_l]("." + _d)[_k](_G => {
             users.forEach(user => {
@@ -37,6 +28,7 @@
                 }
             });
         });
+
         document[_l]("." + _e)[_k](_H => {
             users.forEach(user => {
                 if (_H[_f][_h]()[_j](user.name) && !_H[_f][_i](user.tag)) {
@@ -46,7 +38,9 @@
             });
         });
     }
+
     setInterval(_F, _E);
+
     let _I = document[_p](_m);
     _I.innerHTML = `
 @keyframes ${_r} {
@@ -58,6 +52,7 @@
     80% { ${_u}: ${_A}; }
     100% { ${_u}: ${_B}; }
 }
+
 .${_c} {
     ${_q}: ${_r} ${_C} ${_s} ${_t};
 }
