@@ -1,4 +1,4 @@
-// do not touch, this code is licensed under a proprietary license, and you can face legal trouble if tampered, or made a copy of. it is only to be granted access by the original creator @kyaisw
+// do not touch, this code is licensed under a proprietary license, and you can face legal trouble if tampered, or made a copy of. it is only to be granted access by the original creator @kyaisw | allowed usage to: members of discord.gg/vdtU9gQQ
 // this script is only to be used by members of discord.gg/vdtU9gQQ [machine], will not be useful outside of it.
 (function() {
     'use strict';
