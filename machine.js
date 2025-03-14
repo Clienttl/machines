@@ -4,7 +4,7 @@
     let users = [
         { name: "kyaisw", tag: "[Contributor] " },
         { name: "Zade", tag: "[Leader] " },
-        { name: "Terminatorkid", tag: "[Commander] " },
+        { name: "gok4rt", tag: "[Commander] " },
         { name: "yeetyeet47", tag: "[Commander] " },
         { name: "AkiraXD", tag: "[Jr. Commander] " },
         { name: "Anorak", tag: "[Jr. Commander] " },
