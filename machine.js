@@ -8,7 +8,7 @@
         { name: "yeetyeet47", tag: "[Commander] " },
         { name: "AkiraXD", tag: "[Jr. Commander] " },
         { name: "Anorak", tag: "[Jr. Commander] " },
-        { name: "Bunny", tag: "[Jr. Commander] " },
+        { name: "Bunny 🐰 :)", tag: "[Jr. Commander] " },
         { name: "Lunari", tag: "[Commander] " }
     ];
 
