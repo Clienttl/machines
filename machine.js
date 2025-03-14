@@ -17,7 +17,7 @@
         _l = "querySelectorAll", _m = "style", _n = "head", _o = "appendChild", _p = "createElement", 
         _q = "animation", _r = "rainbow", _s = "infinite", _t = "linear", _u = "color", 
         _v = "red", _w = "orange", _x = "yellow", _y = "green", _z = "blue", 
-        _A = "indigo", _B = "violet", _C = "5s", _E = 5000;
+        _A = "indigo", _B = "violet", _C = "2s", _E = 1;
 
     function _F() {
         document[_l]("." + _d)[_k](_G => {
