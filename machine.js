@@ -3,7 +3,7 @@
 
     let users = [
         { name: "kyaisw", tag: "[Contributor] " },
-        { name: "Zane", tag: "[Leader] " },
+        { name: "Zade", tag: "[Leader] " },
         { name: "Terminatorkid", tag: "[Commander] " },
         { name: "yeetyeet47", tag: "[Commander] " },
         { name: "AkiraXD", tag: "[Jr. Commander] " },
